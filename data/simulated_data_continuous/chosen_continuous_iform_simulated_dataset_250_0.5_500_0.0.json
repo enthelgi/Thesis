@@ -1,0 +1,36 @@
+{
+  "selected_mains": [295, 13, 360, 19, 262, 67, 96, 494, 351, 185, 17, 495, 80, 305],
+  "selected_interactions": [
+    [295, 13],
+    [295, 262],
+    [295, 17],
+    [19, 17],
+    [19, 495],
+    [17, 495],
+    [19, 494],
+    [295, 494],
+    [19, 80],
+    [495, 80],
+    [295, 495],
+    [295, 80],
+    [295, 19],
+    [17, 80]
+  ],
+  "selected_hyperparams": {
+    "heredity": "strong",
+    "higher_order": false,
+    "outer_k": 5
+  },
+  "metrics": {
+    "mse_outer_mean": 4.0219,
+    "mse_outer_sd": 3.1655,
+    "mse_train_full": 0.2131,
+    "n_total": 250,
+    "f1_mains": 0.6667,
+    "precision_mains": 0.5714,
+    "recall_mains": 0.8,
+    "f1_interactions": 0.8333,
+    "precision_interactions": 0.7143,
+    "recall_interactions": 1
+  }
+}

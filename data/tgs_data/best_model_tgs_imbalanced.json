@@ -1,0 +1,80 @@
+{
+  "model_type": "pliable_lasso",
+  "dataset": "tgs_dataset_normalized.csv",
+  "x_columns": [
+    "hsa_miR_X1a_3p",
+    "hsa_miR_X2b_5p",
+    "hsa_miR_X3c_3p",
+    "hsa_miR_X4d_3p",
+    "hsa_miR_X5e_5p",
+    "hsa_miR_X6f_3p",
+    "hsa_miR_X7g_3p",
+    "hsa_miR_X8h_5p",
+    "hsa_miR_X9i_5p",
+    "hsa_miR_X10j_3p",
+    "hsa_miR_X11k_3p",
+    "hsa_miR_X12l_5p",
+    "hsa_miR_X13m_3p",
+    "hsa_miR_X14n_5p",
+    "hsa_miR_X16p_5p",
+    "hsa_miR_X17q_5p",
+    "hsa_miR_X18r_3p",
+    "hsa_miR_X19s_5p",
+    "hsa_miR_X20t_5p",
+    "hsa_miR_X21t_5p"
+  ],
+  "z_idx": [
+    12,
+    19,
+    14,
+    16,
+    1,
+    6,
+    7,
+    2,
+    3,
+    8
+  ],
+  "z_names": [
+    "hsa_miR_X13m_3p",
+    "hsa_miR_X21t_5p",
+    "hsa_miR_X16p_5p",
+    "hsa_miR_X18r_3p",
+    "hsa_miR_X2b_5p",
+    "hsa_miR_X7g_3p",
+    "hsa_miR_X8h_5p",
+    "hsa_miR_X3c_3p",
+    "hsa_miR_X4d_3p",
+    "hsa_miR_X9i_5p"
+  ],
+  "z_category_chosen": "random",
+  "hyperparams": {
+    "cv_requested": 0.4,
+    "cv_effective_final_fit": 0.400001,
+    "max_interaction_terms": 5
+  },
+  "threshold_strategy": "maximize_f1",
+  "fixed_threshold": 0.5,
+  "outer_cv_summary": {
+    "roc_auc_mean": 0.5196164021164021,
+    "pr_auc_mean": 0.23007080301030225,
+    "accuracy_t_mean": 0.4896191646191646,
+    "f1_t_mean": 0.27761547241847556,
+    "threshold_mean": 0.18774633737877056
+  },
+  "intercept": 0.0,
+  "beta": [
+    {
+      "j": 9,
+      "name": "hsa_miR_X10j_3p",
+      "coef": 0.045838923782091964
+    },
+    {
+      "j": 15,
+      "name": "hsa_miR_X17q_5p",
+      "coef": 0.001859405507662754
+    }
+  ],
+  "theta": [],
+  "final_fit_seconds": 0.071
+}

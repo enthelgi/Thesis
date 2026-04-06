@@ -1,0 +1,30 @@
+{
+  "selected_mains": [18, 1, 6, 17, 10, 7, 4, 19, 15, 3],
+  "selected_interactions": [
+    [17, 10],
+    [10, 4],
+    [17, 15],
+    [4, 15],
+    [18, 4],
+    [17, 3],
+    [15, 3],
+    [4, 3]
+  ],
+  "selected_hyperparams": {
+    "heredity": "strong",
+    "higher_order": false,
+    "outer_k": 5
+  },
+  "metrics": {
+    "mse_outer_mean": 1.13,
+    "mse_outer_sd": 0.2835,
+    "mse_train_full": 0.911,
+    "n_total": 500,
+    "f1_mains": 1,
+    "precision_mains": 1,
+    "recall_mains": 1,
+    "f1_interactions": 0.7778,
+    "precision_interactions": 0.875,
+    "recall_interactions": 0.7
+  }
+}

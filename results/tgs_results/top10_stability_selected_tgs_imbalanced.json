@@ -1,0 +1,56 @@
+{
+  "selected_mains": [
+    "hsa_miR_X1a_3p",
+    "hsa_miR_X2b_5p",
+    "hsa_miR_X20t_5p",
+    "hsa_miR_X19s_5p",
+    "hsa_miR_X18r_3p",
+    "hsa_miR_X17q_5p",
+    "hsa_miR_X16p_5p",
+    "hsa_miR_X14n_5p",
+    "hsa_miR_X13m_3p",
+    "hsa_miR_X12l_5p"
+  ],
+  "selected_interactions": [
+    [
+      "hsa_miR_X6f_3p",
+      "hsa_miR_X18r_3p"
+    ],
+    [
+      "hsa_miR_X8h_5p",
+      "hsa_miR_X18r_3p"
+    ],
+    [
+      "hsa_miR_X7g_3p",
+      "hsa_miR_X21t_5p"
+    ],
+    [
+      "hsa_miR_X8h_5p",
+      "hsa_miR_X10j_3p"
+    ],
+    [
+      "hsa_miR_X8h_5p",
+      "hsa_miR_X12l_5p"
+    ],
+    [
+      "hsa_miR_X8h_5p",
+      "hsa_miR_X13m_3p"
+    ],
+    [
+      "hsa_miR_X8h_5p",
+      "hsa_miR_X14n_5p"
+    ],
+    [
+      "hsa_miR_X8h_5p",
+      "hsa_miR_X17q_5p"
+    ],
+    [
+      "hsa_miR_X8h_5p",
+      "hsa_miR_X19s_5p"
+    ],
+    [
+      "hsa_miR_X7g_3p",
+      "hsa_miR_X19s_5p"
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "selected_mains": [11, 7, 10, 13, 0, 3, 17, 1, 6, 12, 5],
+  "selected_interactions": [
+    [10, 0],
+    [10, 17],
+    [0, 1],
+    [0, 17],
+    [17, 6],
+    [0, 6],
+    [10, 6],
+    [1, 6],
+    [10, 3],
+    [7, 1],
+    [13, 3],
+    [7, 6],
+    [13, 6],
+    [7, 17],
+    [7, 10],
+    [11, 6],
+    [6, 5],
+    [0, 5],
+    [17, 5]
+  ],
+  "selected_hyperparams": {
+    "heredity": "strong",
+    "higher_order": false,
+    "outer_k": 5
+  },
+  "metrics": {
+    "mse_outer_mean": 1.0808,
+    "mse_outer_sd": 0.0831,
+    "mse_train_full": 0.9955,
+    "n_total": 1000,
+    "f1_mains": 0.9524,
+    "precision_mains": 0.9091,
+    "recall_mains": 1,
+    "f1_interactions": 0.6207,
+    "precision_interactions": 0.4737,
+    "recall_interactions": 0.9
+  }
+}

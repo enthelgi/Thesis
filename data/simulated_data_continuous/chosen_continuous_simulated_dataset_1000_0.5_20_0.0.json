@@ -1,0 +1,78 @@
+{
+  "selected_mains": [
+    7,
+    9,
+    10,
+    11,
+    12,
+    13,
+    16,
+    17,
+    18
+  ],
+  "selected_interactions": [
+    [
+      9
+    ],
+    [
+      9,
+      11
+    ],
+    [
+      9,
+      12
+    ],
+    [
+      9,
+      18
+    ],
+    [
+      10
+    ],
+    [
+      10,
+      11
+    ],
+    [
+      10,
+      12
+    ],
+    [
+      10,
+      18
+    ],
+    [
+      11
+    ],
+    [
+      11,
+      12
+    ],
+    [
+      11,
+      18
+    ],
+    [
+      12
+    ],
+    [
+      12,
+      18
+    ]
+  ],
+  "selected_hyperparams": {
+    "cv": 0.2,
+    "max_interaction_terms": 70,
+    "threshold": 0.5
+  },
+  "metrics": {
+    "mse": 4.271469717400698,
+    "n_total": 1000,
+    "f1_mains": 0.9473684210526316,
+    "precision_mains": 1.0,
+    "recall_mains": 0.9,
+    "f1_interactions": 0.7826086956521738,
+    "precision_interactions": 0.6923076923076923,
+    "recall_interactions": 0.9
+  }
+}

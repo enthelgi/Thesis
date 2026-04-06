@@ -1,0 +1,10 @@
+candidate_id,category,z_size,best_score,best_alpha,best_cv,best_mit,z_names
+9,high_variance,10,0.7190510488219898,0.1,0.4,10,hsa_miR_X7g_3p;hsa_miR_X6f_3p;hsa_miR_X18r_3p;hsa_miR_X4d_3p;hsa_miR_X13m_3p;hsa_miR_X21t_5p;hsa_miR_X20t_5p;hsa_miR_X14n_5p;hsa_miR_X5e_5p;hsa_miR_X12l_5p
+2,random,10,0.6513341108830547,0.5,0.3,10,hsa_miR_X5e_5p;hsa_miR_X2b_5p;hsa_miR_X17q_5p;hsa_miR_X21t_5p;hsa_miR_X1a_3p;hsa_miR_X4d_3p;hsa_miR_X20t_5p;hsa_miR_X10j_3p;hsa_miR_X16p_5p;hsa_miR_X7g_3p
+4,random,10,0.6417857377776537,0.5,0.4,50,hsa_miR_X13m_3p;hsa_miR_X21t_5p;hsa_miR_X16p_5p;hsa_miR_X18r_3p;hsa_miR_X2b_5p;hsa_miR_X7g_3p;hsa_miR_X8h_5p;hsa_miR_X3c_3p;hsa_miR_X4d_3p;hsa_miR_X9i_5p
+5,random,10,0.6333005024585596,0.1,0.2,20,hsa_miR_X2b_5p;hsa_miR_X12l_5p;hsa_miR_X21t_5p;hsa_miR_X17q_5p;hsa_miR_X19s_5p;hsa_miR_X16p_5p;hsa_miR_X9i_5p;hsa_miR_X10j_3p;hsa_miR_X4d_3p;hsa_miR_X11k_3p
+3,random,10,0.6143027424845054,0.7,0.4,100,hsa_miR_X13m_3p;hsa_miR_X6f_3p;hsa_miR_X7g_3p;hsa_miR_X2b_5p;hsa_miR_X3c_3p;hsa_miR_X19s_5p;hsa_miR_X10j_3p;hsa_miR_X16p_5p;hsa_miR_X14n_5p;hsa_miR_X5e_5p
+7,random,10,0.6100542195895658,0.3,0.05,5,hsa_miR_X2b_5p;hsa_miR_X16p_5p;hsa_miR_X13m_3p;hsa_miR_X11k_3p;hsa_miR_X8h_5p;hsa_miR_X18r_3p;hsa_miR_X7g_3p;hsa_miR_X4d_3p;hsa_miR_X21t_5p;hsa_miR_X19s_5p
+8,random,10,0.5766170489305934,0.1,0.4,100,hsa_miR_X6f_3p;hsa_miR_X13m_3p;hsa_miR_X3c_3p;hsa_miR_X7g_3p;hsa_miR_X18r_3p;hsa_miR_X21t_5p;hsa_miR_X4d_3p;hsa_miR_X14n_5p;hsa_miR_X1a_3p;hsa_miR_X11k_3p
+1,random,10,0.5659865433745533,0.3,0.3,50,hsa_miR_X14n_5p;hsa_miR_X4d_3p;hsa_miR_X1a_3p;hsa_miR_X2b_5p;hsa_miR_X17q_5p;hsa_miR_X7g_3p;hsa_miR_X19s_5p;hsa_miR_X11k_3p;hsa_miR_X5e_5p;hsa_miR_X6f_3p
+6,random,10,0.5648015365049084,0.3,0.4,20,hsa_miR_X7g_3p;hsa_miR_X14n_5p;hsa_miR_X3c_3p;hsa_miR_X2b_5p;hsa_miR_X19s_5p;hsa_miR_X18r_3p;hsa_miR_X9i_5p;hsa_miR_X16p_5p;hsa_miR_X20t_5p;hsa_miR_X5e_5p

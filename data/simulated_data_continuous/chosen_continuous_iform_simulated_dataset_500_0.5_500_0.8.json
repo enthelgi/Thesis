@@ -1,0 +1,31 @@
+{
+  "selected_mains": [170, 53, 45, 452, 408, 303, 275, 115, 188, 59],
+  "selected_interactions": [
+    [452, 303],
+    [170, 275],
+    [452, 275],
+    [303, 275],
+    [275, 188],
+    [170, 188],
+    [452, 188],
+    [303, 188],
+    [170, 452]
+  ],
+  "selected_hyperparams": {
+    "heredity": "strong",
+    "higher_order": false,
+    "outer_k": 5
+  },
+  "metrics": {
+    "mse_outer_mean": 2.1177,
+    "mse_outer_sd": 1.4136,
+    "mse_train_full": 0.2569,
+    "n_total": 500,
+    "f1_mains": 1,
+    "precision_mains": 1,
+    "recall_mains": 1,
+    "f1_interactions": 0.9474,
+    "precision_interactions": 1,
+    "recall_interactions": 0.9
+  }
+}

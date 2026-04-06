@@ -1,0 +1,145 @@
+{
+  "dataset_stem": "simulated_dataset_250_0.5_20_0.8",
+  "tau": 0.55,
+  "N_top_stable": 20,
+  "mains_counts": {
+    "stable_total": 20,
+    "true_total": 10,
+    "stable_and_true": 10
+  },
+  "interactions_counts": {
+    "stable_total": 20,
+    "true_total": 10,
+    "stable_and_true": 7
+  },
+  "mains_metrics": {
+    "F1": 0.6666666666666666,
+    "precision": 0.5,
+    "recall": 1.0,
+    "TP": 10,
+    "FP": 10,
+    "FN": 0,
+    "n_stable": 20
+  },
+  "interactions_metrics": {
+    "F1": 0.4666666666666667,
+    "precision": 0.35,
+    "recall": 0.7,
+    "TP": 7,
+    "FP": 13,
+    "FN": 3,
+    "n_stable": 20
+  },
+  "stable_indices": {
+    "mains": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "interactions": [
+      [
+        12,
+        13
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        12,
+        19
+      ],
+      [
+        3,
+        13
+      ],
+      [
+        3,
+        19
+      ],
+      [
+        10,
+        12
+      ],
+      [
+        13,
+        14
+      ],
+      [
+        3,
+        9
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        3,
+        12
+      ],
+      [
+        3,
+        15
+      ],
+      [
+        11,
+        13
+      ],
+      [
+        1,
+        8
+      ],
+      [
+        13,
+        19
+      ],
+      [
+        6,
+        19
+      ],
+      [
+        3,
+        11
+      ],
+      [
+        3,
+        8
+      ],
+      [
+        10,
+        13
+      ],
+      [
+        11,
+        12
+      ],
+      [
+        13,
+        15
+      ]
+    ]
+  },
+  "files": {
+    "barplot_mains_png": "C:/Users/enthe/Desktop/Thesis/results\\stability_topN_20_0.55\\barplot_mains_simulated_dataset_250_0.5_20_0.8.png",
+    "barplot_interactions_png": "C:/Users/enthe/Desktop/Thesis/results\\stability_topN_20_0.55\\barplot_interactions_simulated_dataset_250_0.5_20_0.8.png",
+    "mains_freq_csv": "C:/Users/enthe/Desktop/Thesis/results\\stability_predcv_0.55thresh\\stability_mains_simulated_dataset_250_0.5_20_0.8.csv",
+    "inter_freq_csv": "C:/Users/enthe/Desktop/Thesis/results\\stability_predcv_0.55thresh\\stability_interactions_simulated_dataset_250_0.5_20_0.8.csv"
+  }
+}

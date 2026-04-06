@@ -1,0 +1,27 @@
+{
+  "model_type": "pliable_lasso",
+  "z_idx": [
+    46,
+    64,
+    216,
+    396,
+    424
+  ],
+  "hyperparams": {
+    "cv": 0.2,
+    "max_interaction_terms": 70
+  },
+  "threshold": 0.5,
+  "intercept": 0.0,
+  "beta": [
+    {
+      "j": 208,
+      "coef": -0.0027567965698273894
+    },
+    {
+      "j": 251,
+      "coef": -0.6840744774212756
+    }
+  ],
+  "theta": []
+}

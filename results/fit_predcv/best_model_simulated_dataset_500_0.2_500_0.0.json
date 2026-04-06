@@ -1,0 +1,32 @@
+{
+  "params": {
+    "alpha": 0.3,
+    "max_interaction_terms": 50,
+    "cv": 0.05
+  },
+  "selected_mains": [
+    107,
+    193,
+    266,
+    435,
+    477
+  ],
+  "selected_interactions": [],
+  "main_coefficients": {
+    "193": -0.0036368585329325884,
+    "266": 0.004390970131162111,
+    "107": 0.00012317267632629678,
+    "435": -0.01510778410214926,
+    "477": -0.041239996870827786
+  },
+  "interaction_coefficients": {},
+  "F1_main": 0.26666666666666666,
+  "precision_main": 0.4,
+  "recall_main": 0.2,
+  "F1_inter": 0.0,
+  "precision_inter": 0.0,
+  "recall_inter": 0.0,
+  "fit_time_seconds": 0.3294405937194824,
+  "mse": 0.13711953743524521,
+  "accuracy": 0.806
+}

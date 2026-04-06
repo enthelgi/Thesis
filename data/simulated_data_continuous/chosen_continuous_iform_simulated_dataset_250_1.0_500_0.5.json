@@ -1,0 +1,21 @@
+{
+  "selected_mains": [154, 141, 91, 121],
+  "selected_interactions": [],
+  "selected_hyperparams": {
+    "heredity": "strong",
+    "higher_order": false,
+    "outer_k": 5
+  },
+  "metrics": {
+    "mse_outer_mean": 8.1078,
+    "mse_outer_sd": 1.0609,
+    "mse_train_full": 6.5,
+    "n_total": 250,
+    "f1_mains": 0.5714,
+    "precision_mains": 1,
+    "recall_mains": 0.4,
+    "f1_interactions": null,
+    "precision_interactions": null,
+    "recall_interactions": 0
+  }
+}

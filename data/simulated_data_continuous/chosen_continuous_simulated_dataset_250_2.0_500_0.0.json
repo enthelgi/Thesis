@@ -1,0 +1,22 @@
+{
+  "selected_mains": [
+    208,
+    251
+  ],
+  "selected_interactions": [],
+  "selected_hyperparams": {
+    "cv": 0.2,
+    "max_interaction_terms": 70,
+    "threshold": 0.5
+  },
+  "metrics": {
+    "mse": 9.116313189058026,
+    "n_total": 250,
+    "f1_mains": 0.16666666666666669,
+    "precision_mains": 0.5,
+    "recall_mains": 0.1,
+    "f1_interactions": 0.0,
+    "precision_interactions": 0.0,
+    "recall_interactions": 0.0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "dataset": "tgs_dataset_normalized_balanced.csv",
+  "selected_hyperparams": {
+    "cv_requested": 0.3,
+    "max_interaction_terms": 20
+  },
+  "chosen_z_category": "random",
+  "chosen_z_names": [
+    "hsa_miR_X2b_5p",
+    "hsa_miR_X12l_5p",
+    "hsa_miR_X21t_5p",
+    "hsa_miR_X17q_5p",
+    "hsa_miR_X19s_5p",
+    "hsa_miR_X16p_5p",
+    "hsa_miR_X9i_5p",
+    "hsa_miR_X10j_3p",
+    "hsa_miR_X4d_3p",
+    "hsa_miR_X11k_3p"
+  ],
+  "outer_cv_metrics": {
+    "roc_auc_mean": 0.6024489795918366,
+    "pr_auc_mean": 0.6339334013195704,
+    "accuracy_t_mean": 0.5907084785133565,
+    "f1_t_mean": 0.6758719791821515,
+    "threshold_mean": 0.3841292877299825
+  },
+  "n_selected_mains": 3,
+  "n_selected_interactions": 9
+}

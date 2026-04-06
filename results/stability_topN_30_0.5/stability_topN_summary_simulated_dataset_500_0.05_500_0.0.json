@@ -1,0 +1,83 @@
+{
+  "dataset_stem": "simulated_dataset_500_0.05_500_0.0",
+  "tau": 0.5,
+  "N_top_stable": 30,
+  "mains_counts": {
+    "stable_total": 30,
+    "true_total": 10,
+    "stable_and_true": 2
+  },
+  "interactions_counts": {
+    "stable_total": 2,
+    "true_total": 10,
+    "stable_and_true": 0
+  },
+  "mains_metrics": {
+    "F1": 0.1,
+    "precision": 0.06666666666666667,
+    "recall": 0.2,
+    "TP": 2,
+    "FP": 28,
+    "FN": 8,
+    "n_stable": 30
+  },
+  "interactions_metrics": {
+    "F1": 0.0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "TP": 0,
+    "FP": 2,
+    "FN": 10,
+    "n_stable": 2
+  },
+  "stable_indices": {
+    "mains": [
+      24,
+      54,
+      91,
+      96,
+      98,
+      102,
+      125,
+      178,
+      192,
+      202,
+      244,
+      284,
+      290,
+      302,
+      303,
+      316,
+      327,
+      342,
+      344,
+      345,
+      346,
+      364,
+      410,
+      414,
+      440,
+      442,
+      461,
+      474,
+      478,
+      485
+    ],
+    "interactions": [
+      [
+        138,
+        346
+      ],
+      [
+        346,
+        379
+      ]
+    ]
+  },
+  "files": {
+    "barplot_mains_png": "C:/Users/enthe/Desktop/Thesis/results\\stability_topN_30_0.5\\barplot_mains_simulated_dataset_500_0.05_500_0.0.png",
+    "barplot_interactions_png": "C:/Users/enthe/Desktop/Thesis/results\\stability_topN_30_0.5\\barplot_interactions_simulated_dataset_500_0.05_500_0.0.png",
+    "mains_freq_csv": "C:/Users/enthe/Desktop/Thesis/results\\stability_predcv_0.5thresh\\stability_mains_simulated_dataset_500_0.05_500_0.0.csv",
+    "inter_freq_csv": "C:/Users/enthe/Desktop/Thesis/results\\stability_predcv_0.5thresh\\stability_interactions_simulated_dataset_500_0.05_500_0.0.csv"
+  }
+}

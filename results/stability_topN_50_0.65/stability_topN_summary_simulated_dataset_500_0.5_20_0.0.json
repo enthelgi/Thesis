@@ -1,0 +1,109 @@
+{
+  "dataset_stem": "simulated_dataset_500_0.5_20_0.0",
+  "tau": 0.65,
+  "N_top_stable": 50,
+  "mains_counts": {
+    "stable_total": 16,
+    "true_total": 10,
+    "stable_and_true": 7
+  },
+  "interactions_counts": {
+    "stable_total": 12,
+    "true_total": 10,
+    "stable_and_true": 4
+  },
+  "mains_metrics": {
+    "F1": 0.5384615384615384,
+    "precision": 0.4375,
+    "recall": 0.7,
+    "TP": 7,
+    "FP": 9,
+    "FN": 3,
+    "n_stable": 16
+  },
+  "interactions_metrics": {
+    "F1": 0.36363636363636365,
+    "precision": 0.3333333333333333,
+    "recall": 0.4,
+    "TP": 4,
+    "FP": 8,
+    "FN": 6,
+    "n_stable": 12
+  },
+  "stable_indices": {
+    "mains": [
+      0,
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      16,
+      19
+    ],
+    "interactions": [
+      [
+        1,
+        12
+      ],
+      [
+        1,
+        18
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        15
+      ],
+      [
+        1,
+        11
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        11,
+        15
+      ],
+      [
+        15,
+        19
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        11,
+        18
+      ],
+      [
+        1,
+        9
+      ],
+      [
+        3,
+        12
+      ]
+    ]
+  },
+  "files": {
+    "barplot_mains_png": "C:/Users/enthe/Desktop/Thesis/results\\stability_topN_50_0.65\\barplot_mains_simulated_dataset_500_0.5_20_0.0.png",
+    "barplot_interactions_png": "C:/Users/enthe/Desktop/Thesis/results\\stability_topN_50_0.65\\barplot_interactions_simulated_dataset_500_0.5_20_0.0.png",
+    "mains_freq_csv": "C:/Users/enthe/Desktop/Thesis/results\\stability_predcv_0.65thresh\\stability_mains_simulated_dataset_500_0.5_20_0.0.csv",
+    "inter_freq_csv": "C:/Users/enthe/Desktop/Thesis/results\\stability_predcv_0.65thresh\\stability_interactions_simulated_dataset_500_0.5_20_0.0.csv"
+  }
+}

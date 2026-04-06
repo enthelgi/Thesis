@@ -1,0 +1,687 @@
+{
+  "dataset_stem": "simulated_dataset_500_0.05_20_0.8",
+  "tau": 0.55,
+  "q_estimates": {
+    "mains": 12.569999999999999,
+    "interactions": 57.12
+  },
+  "E[V]_bounds_conservative": {
+    "mains": 79.00244999999991,
+    "interactions": 155.36639999999986,
+    "note": "Classic CPSS-style conservative bound using q=E[K] and 1/(2*tau-1)."
+  },
+  "noise_pmf_frequency": {
+    "B_pairs": 50,
+    "mains": {
+      "freq_grid": [
+        0.0,
+        0.02,
+        0.04,
+        0.06,
+        0.08,
+        0.1,
+        0.12,
+        0.14,
+        0.16,
+        0.18,
+        0.2,
+        0.22,
+        0.24,
+        0.26,
+        0.28,
+        0.3,
+        0.32,
+        0.34,
+        0.36,
+        0.38,
+        0.4,
+        0.42,
+        0.44,
+        0.46,
+        0.48,
+        0.5,
+        0.52,
+        0.54,
+        0.56,
+        0.58,
+        0.6,
+        0.62,
+        0.64,
+        0.66,
+        0.68,
+        0.7,
+        0.72,
+        0.74,
+        0.76,
+        0.78,
+        0.8,
+        0.82,
+        0.84,
+        0.86,
+        0.88,
+        0.9,
+        0.92,
+        0.94,
+        0.96,
+        0.98,
+        1.0
+      ],
+      "pmf": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.1,
+        0.1,
+        0.2,
+        0.1,
+        0.0,
+        0.0,
+        0.1,
+        0.2,
+        0.1,
+        0.1,
+        0.0
+      ],
+      "unimodal": false,
+      "r": -0.5,
+      "r_concave_ok": false,
+      "true_main_freqs": [
+        0.34,
+        0.36,
+        0.42,
+        0.56,
+        0.84,
+        0.94,
+        0.94,
+        0.96,
+        0.98,
+        1.0
+      ]
+    },
+    "interactions": {
+      "freq_grid": [
+        0.0,
+        0.02,
+        0.04,
+        0.06,
+        0.08,
+        0.1,
+        0.12,
+        0.14,
+        0.16,
+        0.18,
+        0.2,
+        0.22,
+        0.24,
+        0.26,
+        0.28,
+        0.3,
+        0.32,
+        0.34,
+        0.36,
+        0.38,
+        0.4,
+        0.42,
+        0.44,
+        0.46,
+        0.48,
+        0.5,
+        0.52,
+        0.54,
+        0.56,
+        0.58,
+        0.6,
+        0.62,
+        0.64,
+        0.66,
+        0.68,
+        0.7,
+        0.72,
+        0.74,
+        0.76,
+        0.78,
+        0.8,
+        0.82,
+        0.84,
+        0.86,
+        0.88,
+        0.9,
+        0.92,
+        0.94,
+        0.96,
+        0.98,
+        1.0
+      ],
+      "pmf": [
+        0.6,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.01,
+        0.005,
+        0.01,
+        0.025,
+        0.02,
+        0.05,
+        0.055,
+        0.05,
+        0.04,
+        0.03,
+        0.01,
+        0.025,
+        0.02,
+        0.005,
+        0.02,
+        0.025
+      ],
+      "unimodal": false,
+      "r": -0.5,
+      "r_concave_ok": false,
+      "true_inter_freqs": [
+        0.8,
+        0.9,
+        0.88,
+        1.0,
+        0.9,
+        0.9,
+        0.86,
+        0.94,
+        1.0,
+        0.84
+      ]
+    }
+  },
+  "mains_counts": {
+    "chosen_total": 3,
+    "stable_total": 17,
+    "true_total": 10,
+    "chosen_and_stable": 3,
+    "chosen_and_true": 3,
+    "stable_and_true": 7,
+    "all_three": 3
+  },
+  "interactions_counts": {
+    "chosen_total": 13,
+    "stable_total": 90,
+    "true_total": 10,
+    "chosen_and_stable": 13,
+    "chosen_and_true": 3,
+    "stable_and_true": 10,
+    "all_three": 3
+  },
+  "mains_metrics": {
+    "F1": 0.5185185185185185,
+    "precision": 0.4117647058823529,
+    "recall": 0.7,
+    "TP": 7,
+    "FP": 10,
+    "FN": 3,
+    "n_stable": 17
+  },
+  "interactions_metrics": {
+    "F1": 0.2,
+    "precision": 0.1111111111111111,
+    "recall": 1.0,
+    "TP": 10,
+    "FP": 80,
+    "FN": 0,
+    "n_stable": 90
+  },
+  "files": {
+    "mains_freq_csv": "C:/Users/enthe/Desktop/Thesis/results\\stability_predcv_0.55thresh\\stability_mains_simulated_dataset_500_0.05_20_0.8.csv",
+    "inter_freq_csv": "C:/Users/enthe/Desktop/Thesis/results\\stability_predcv_0.55thresh\\stability_interactions_simulated_dataset_500_0.05_20_0.8.csv",
+    "pmf_noise_freq_mains_png": "C:/Users/enthe/Desktop/Thesis/results\\stability_predcv_0.55thresh\\pmf_noise_freq_mains_simulated_dataset_500_0.05_20_0.8.png",
+    "pmf_noise_freq_interactions_png": "C:/Users/enthe/Desktop/Thesis/results\\stability_predcv_0.55thresh\\pmf_noise_freq_interactions_simulated_dataset_500_0.05_20_0.8.png",
+    "pmf_q_mains_png": "C:/Users/enthe/Desktop/Thesis/results\\stability_predcv_0.55thresh\\pmf_q_mains_simulated_dataset_500_0.05_20_0.8.png",
+    "pmf_q_interactions_png": "C:/Users/enthe/Desktop/Thesis/results\\stability_predcv_0.55thresh\\pmf_q_interactions_simulated_dataset_500_0.05_20_0.8.png",
+    "mains_perhalf_freq_highlight_png": "C:/Users/enthe/Desktop/Thesis/results\\stability_predcv_0.55thresh\\mains_perhalf_freq_highlight_simulated_dataset_500_0.05_20_0.8.png",
+    "barplot_mains_png": "C:/Users/enthe/Desktop/Thesis/results\\stability_predcv_0.55thresh\\barplot_mains_simulated_dataset_500_0.05_20_0.8.png",
+    "barplot_interactions_png": "C:/Users/enthe/Desktop/Thesis/results\\stability_predcv_0.55thresh\\barplot_interactions_simulated_dataset_500_0.05_20_0.8.png"
+  },
+  "stable_indices": {
+    "mains": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      14,
+      15,
+      17,
+      18
+    ],
+    "interactions": [
+      [
+        14,
+        19
+      ],
+      [
+        10,
+        13
+      ],
+      [
+        18
+      ],
+      [
+        5,
+        13
+      ],
+      [
+        6,
+        17
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        16,
+        17
+      ],
+      [
+        9,
+        13
+      ],
+      [
+        12,
+        16
+      ],
+      [
+        0,
+        19
+      ],
+      [
+        15,
+        16
+      ],
+      [
+        13,
+        16
+      ],
+      [
+        1,
+        19
+      ],
+      [
+        16
+      ],
+      [
+        0,
+        18
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        2,
+        19
+      ],
+      [
+        17,
+        18
+      ],
+      [
+        12,
+        18
+      ],
+      [
+        5,
+        18
+      ],
+      [
+        1,
+        16
+      ],
+      [
+        2,
+        18
+      ],
+      [
+        17,
+        19
+      ],
+      [
+        12,
+        19
+      ],
+      [
+        0,
+        16
+      ],
+      [
+        15,
+        19
+      ],
+      [
+        5,
+        19
+      ],
+      [
+        12,
+        13
+      ],
+      [
+        9,
+        19
+      ],
+      [
+        6,
+        15
+      ],
+      [
+        4,
+        18
+      ],
+      [
+        11,
+        19
+      ],
+      [
+        5,
+        16
+      ],
+      [
+        7,
+        16
+      ],
+      [
+        4,
+        13
+      ],
+      [
+        2,
+        16
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        13
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        3,
+        18
+      ],
+      [
+        7,
+        19
+      ],
+      [
+        3,
+        19
+      ],
+      [
+        8,
+        13
+      ],
+      [
+        13,
+        17
+      ],
+      [
+        13,
+        18
+      ],
+      [
+        6,
+        10
+      ],
+      [
+        3,
+        16
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        6,
+        13
+      ],
+      [
+        10,
+        18
+      ],
+      [
+        14,
+        18
+      ],
+      [
+        2,
+        13
+      ],
+      [
+        18,
+        19
+      ],
+      [
+        10,
+        19
+      ],
+      [
+        9,
+        16
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        13,
+        14
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        6,
+        14
+      ],
+      [
+        1,
+        18
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        10,
+        16
+      ],
+      [
+        8,
+        16
+      ],
+      [
+        9,
+        18
+      ],
+      [
+        4,
+        19
+      ],
+      [
+        11,
+        18
+      ],
+      [
+        16,
+        19
+      ],
+      [
+        6
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        15,
+        18
+      ],
+      [
+        4,
+        16
+      ],
+      [
+        6,
+        16
+      ],
+      [
+        8,
+        19
+      ],
+      [
+        6,
+        11
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        7,
+        18
+      ],
+      [
+        11,
+        16
+      ],
+      [
+        3,
+        13
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        12
+      ],
+      [
+        6,
+        18
+      ],
+      [
+        11,
+        13
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        6,
+        19
+      ],
+      [
+        1,
+        13
+      ],
+      [
+        7,
+        13
+      ],
+      [
+        13,
+        19
+      ],
+      [
+        19
+      ]
+    ]
+  }
+}

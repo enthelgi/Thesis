@@ -1,0 +1,40 @@
+{
+  "selected_mains": [20, 87, 146, 147, 160, 173, 190, 239, 325, 328, 345, 395, 400, 401, 420, 444, 445, 460, 481, 491, 493],
+  "selected_interactions": [
+    [445, 420],
+    [147, 444],
+    [20, 401],
+    [147, 401],
+    [328, 401],
+    [146, 401],
+    [444, 401],
+    [395, 190],
+    [460, 401],
+    [190, 401],
+    [20, 400],
+    [146, 104],
+    [401, 400],
+    [401, 493],
+    [493, 370]
+  ],
+  "selected_hyperparams": {
+    "nlambda": 100,
+    "iter_max": 70,
+    "lambda_min_ratio": 1e-08,
+    "inner_nfolds": 5,
+    "inner_nperms": 1,
+    "outer_k": 5
+  },
+  "metrics": {
+    "mse_outer_mean": 2.8922,
+    "mse_outer_sd": 0.5174,
+    "mse_train_full": 2.2985,
+    "n_total": 1000,
+    "f1_mains": 0.3871,
+    "precision_mains": 0.2857,
+    "recall_mains": 0.6,
+    "f1_interactions": null,
+    "precision_interactions": 0,
+    "recall_interactions": 0
+  }
+}

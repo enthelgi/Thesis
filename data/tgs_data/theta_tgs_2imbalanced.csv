@@ -1,0 +1,10 @@
+i,i_name,j,j_name,coef
+8,hsa_miR_X9i_5p,12,hsa_miR_X13m_3p,-2.7213512246847565e-07
+8,hsa_miR_X9i_5p,19,hsa_miR_X21t_5p,-2.152754312072607e-07
+8,hsa_miR_X9i_5p,14,hsa_miR_X16p_5p,1.5556360108029328e-06
+8,hsa_miR_X9i_5p,1,hsa_miR_X2b_5p,4.621112112385664e-06
+8,hsa_miR_X9i_5p,6,hsa_miR_X7g_3p,-2.907805792510866e-07
+8,hsa_miR_X9i_5p,7,hsa_miR_X8h_5p,1.288677571294584e-06
+8,hsa_miR_X9i_5p,2,hsa_miR_X3c_3p,1.34232335857965e-06
+8,hsa_miR_X9i_5p,3,hsa_miR_X4d_3p,-1.0497204030690797e-06
+8,hsa_miR_X9i_5p,8,hsa_miR_X9i_5p,-6.8160057677043e-06

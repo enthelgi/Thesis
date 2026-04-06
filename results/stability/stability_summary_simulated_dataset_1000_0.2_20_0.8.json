@@ -1,0 +1,504 @@
+{
+  "dataset_stem": "simulated_dataset_1000_0.2_20_0.8",
+  "tau": 0.7,
+  "q_estimates": {
+    "mains": 13.559999999999999,
+    "interactions": 37.660000000000004
+  },
+  "E[V]_bounds_conservative": {
+    "mains": 22.984199999999998,
+    "interactions": 16.884233333333338,
+    "note": "Classic CPSS-style conservative bound using q=E[K] and 1/(2*tau-1)."
+  },
+  "noise_pmf_frequency": {
+    "B_pairs": 50,
+    "mains": {
+      "freq_grid": [
+        0.0,
+        0.02,
+        0.04,
+        0.06,
+        0.08,
+        0.1,
+        0.12,
+        0.14,
+        0.16,
+        0.18,
+        0.2,
+        0.22,
+        0.24,
+        0.26,
+        0.28,
+        0.3,
+        0.32,
+        0.34,
+        0.36,
+        0.38,
+        0.4,
+        0.42,
+        0.44,
+        0.46,
+        0.48,
+        0.5,
+        0.52,
+        0.54,
+        0.56,
+        0.58,
+        0.6,
+        0.62,
+        0.64,
+        0.66,
+        0.68,
+        0.7,
+        0.72,
+        0.74,
+        0.76,
+        0.78,
+        0.8,
+        0.82,
+        0.84,
+        0.86,
+        0.88,
+        0.9,
+        0.92,
+        0.94,
+        0.96,
+        0.98,
+        1.0
+      ],
+      "pmf": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.1,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.1,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.1,
+        0.1,
+        0.0,
+        0.1,
+        0.0,
+        0.2,
+        0.3
+      ],
+      "unimodal": false,
+      "r": -0.5,
+      "r_concave_ok": false,
+      "true_main_freqs": [
+        0.42,
+        0.5,
+        0.68,
+        0.96,
+        0.96,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "interactions": {
+      "freq_grid": [
+        0.0,
+        0.02,
+        0.04,
+        0.06,
+        0.08,
+        0.1,
+        0.12,
+        0.14,
+        0.16,
+        0.18,
+        0.2,
+        0.22,
+        0.24,
+        0.26,
+        0.28,
+        0.3,
+        0.32,
+        0.34,
+        0.36,
+        0.38,
+        0.4,
+        0.42,
+        0.44,
+        0.46,
+        0.48,
+        0.5,
+        0.52,
+        0.54,
+        0.56,
+        0.58,
+        0.6,
+        0.62,
+        0.64,
+        0.66,
+        0.68,
+        0.7,
+        0.72,
+        0.74,
+        0.76,
+        0.78,
+        0.8,
+        0.82,
+        0.84,
+        0.86,
+        0.88,
+        0.9,
+        0.92,
+        0.94,
+        0.96,
+        0.98,
+        1.0
+      ],
+      "pmf": [
+        0.6,
+        0.01,
+        0.01,
+        0.025,
+        0.02,
+        0.01,
+        0.005,
+        0.01,
+        0.0,
+        0.015,
+        0.0,
+        0.005,
+        0.0,
+        0.0,
+        0.01,
+        0.0,
+        0.015,
+        0.005,
+        0.005,
+        0.005,
+        0.0,
+        0.0,
+        0.005,
+        0.005,
+        0.0,
+        0.01,
+        0.005,
+        0.02,
+        0.005,
+        0.0,
+        0.0,
+        0.01,
+        0.0,
+        0.0,
+        0.0,
+        0.005,
+        0.0,
+        0.005,
+        0.01,
+        0.005,
+        0.0,
+        0.01,
+        0.0,
+        0.005,
+        0.015,
+        0.01,
+        0.005,
+        0.015,
+        0.005,
+        0.035,
+        0.065
+      ],
+      "unimodal": false,
+      "r": -0.5,
+      "r_concave_ok": false,
+      "true_inter_freqs": [
+        1.0,
+        0.82,
+        0.3,
+        1.0,
+        0.18,
+        0.96,
+        0.72,
+        0.98,
+        0.2,
+        0.64
+      ]
+    }
+  },
+  "mains_counts": {
+    "chosen_total": 0,
+    "stable_total": 16,
+    "true_total": 10,
+    "chosen_and_stable": 0,
+    "chosen_and_true": 0,
+    "stable_and_true": 7,
+    "all_three": 0
+  },
+  "interactions_counts": {
+    "chosen_total": 0,
+    "stable_total": 44,
+    "true_total": 10,
+    "chosen_and_stable": 0,
+    "chosen_and_true": 0,
+    "stable_and_true": 6,
+    "all_three": 0
+  },
+  "mains_metrics": {
+    "F1": 0.5384615384615384,
+    "precision": 0.4375,
+    "recall": 0.7,
+    "TP": 7,
+    "FP": 9,
+    "FN": 3,
+    "n_stable": 16
+  },
+  "interactions_metrics": {
+    "F1": 0.2222222222222222,
+    "precision": 0.13636363636363635,
+    "recall": 0.6,
+    "TP": 6,
+    "FP": 38,
+    "FN": 4,
+    "n_stable": 44
+  },
+  "files": {
+    "mains_freq_csv": "C:/Users/enthe/Desktop/Thesis/results/stability\\stability_mains_simulated_dataset_1000_0.2_20_0.8.csv",
+    "inter_freq_csv": "C:/Users/enthe/Desktop/Thesis/results/stability\\stability_interactions_simulated_dataset_1000_0.2_20_0.8.csv",
+    "pmf_noise_freq_mains_png": "C:/Users/enthe/Desktop/Thesis/results/stability\\pmf_noise_freq_mains_simulated_dataset_1000_0.2_20_0.8.png",
+    "pmf_noise_freq_interactions_png": "C:/Users/enthe/Desktop/Thesis/results/stability\\pmf_noise_freq_interactions_simulated_dataset_1000_0.2_20_0.8.png",
+    "pmf_q_mains_png": "C:/Users/enthe/Desktop/Thesis/results/stability\\pmf_q_mains_simulated_dataset_1000_0.2_20_0.8.png",
+    "pmf_q_interactions_png": "C:/Users/enthe/Desktop/Thesis/results/stability\\pmf_q_interactions_simulated_dataset_1000_0.2_20_0.8.png",
+    "mains_perhalf_freq_highlight_png": "C:/Users/enthe/Desktop/Thesis/results/stability\\mains_perhalf_freq_highlight_simulated_dataset_1000_0.2_20_0.8.png",
+    "barplot_mains_png": "C:/Users/enthe/Desktop/Thesis/results/stability\\barplot_mains_simulated_dataset_1000_0.2_20_0.8.png",
+    "barplot_interactions_png": "C:/Users/enthe/Desktop/Thesis/results/stability\\barplot_interactions_simulated_dataset_1000_0.2_20_0.8.png"
+  },
+  "stable_indices": {
+    "mains": [
+      0,
+      1,
+      3,
+      4,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "interactions": [
+      [
+        11,
+        19
+      ],
+      [
+        15,
+        18
+      ],
+      [
+        8,
+        14
+      ],
+      [
+        14,
+        19
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        7,
+        14
+      ],
+      [
+        18
+      ],
+      [
+        8,
+        19
+      ],
+      [
+        7,
+        16
+      ],
+      [
+        5,
+        9
+      ],
+      [
+        14,
+        18
+      ],
+      [
+        7,
+        18
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        14
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        18,
+        19
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        9,
+        14
+      ],
+      [
+        14,
+        17
+      ],
+      [
+        11,
+        14
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        13,
+        14
+      ],
+      [
+        5,
+        12
+      ],
+      [
+        17,
+        18
+      ],
+      [
+        12,
+        18
+      ],
+      [
+        5,
+        18
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        7,
+        11
+      ],
+      [
+        13,
+        18
+      ],
+      [
+        7,
+        12
+      ],
+      [
+        9,
+        18
+      ],
+      [
+        12,
+        14
+      ],
+      [
+        7,
+        13
+      ],
+      [
+        17,
+        19
+      ],
+      [
+        12,
+        19
+      ],
+      [
+        15,
+        19
+      ],
+      [
+        10,
+        14
+      ],
+      [
+        16,
+        19
+      ],
+      [
+        13,
+        19
+      ],
+      [
+        19
+      ],
+      [
+        7,
+        15
+      ]
+    ]
+  }
+}

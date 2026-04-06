@@ -1,0 +1,265 @@
+{
+  "dataset_stem": "simulated_dataset_250_0.2_20_0.0",
+  "tau": 0.65,
+  "N_top_stable": 50,
+  "mains_counts": {
+    "stable_total": 20,
+    "true_total": 10,
+    "stable_and_true": 10
+  },
+  "interactions_counts": {
+    "stable_total": 50,
+    "true_total": 10,
+    "stable_and_true": 10
+  },
+  "mains_metrics": {
+    "F1": 0.6666666666666666,
+    "precision": 0.5,
+    "recall": 1.0,
+    "TP": 10,
+    "FP": 10,
+    "FN": 0,
+    "n_stable": 20
+  },
+  "interactions_metrics": {
+    "F1": 0.3333333333333333,
+    "precision": 0.2,
+    "recall": 1.0,
+    "TP": 10,
+    "FP": 40,
+    "FN": 0,
+    "n_stable": 50
+  },
+  "stable_indices": {
+    "mains": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "interactions": [
+      [
+        4,
+        15
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        8
+      ],
+      [
+        8,
+        15
+      ],
+      [
+        2,
+        11
+      ],
+      [
+        1,
+        9
+      ],
+      [
+        0,
+        11
+      ],
+      [
+        10,
+        15
+      ],
+      [
+        1,
+        12
+      ],
+      [
+        1,
+        15
+      ],
+      [
+        7,
+        16
+      ],
+      [
+        15,
+        17
+      ],
+      [
+        7,
+        19
+      ],
+      [
+        12,
+        15
+      ],
+      [
+        3,
+        15
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        5,
+        15
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        11
+      ],
+      [
+        0,
+        10
+      ],
+      [
+        0,
+        19
+      ],
+      [
+        1,
+        8
+      ],
+      [
+        2,
+        16
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        2,
+        19
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        1,
+        17
+      ],
+      [
+        7,
+        12
+      ],
+      [
+        15,
+        19
+      ],
+      [
+        7,
+        15
+      ],
+      [
+        7,
+        18
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        9
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        9,
+        15
+      ],
+      [
+        0,
+        12
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        0,
+        15
+      ],
+      [
+        11,
+        15
+      ],
+      [
+        2,
+        18
+      ],
+      [
+        0,
+        18
+      ],
+      [
+        2,
+        15
+      ],
+      [
+        15,
+        18
+      ],
+      [
+        7,
+        8
+      ]
+    ]
+  },
+  "files": {
+    "barplot_mains_png": "C:/Users/enthe/Desktop/Thesis/results\\stability_topN_50_0.65\\barplot_mains_simulated_dataset_250_0.2_20_0.0.png",
+    "barplot_interactions_png": "C:/Users/enthe/Desktop/Thesis/results\\stability_topN_50_0.65\\barplot_interactions_simulated_dataset_250_0.2_20_0.0.png",
+    "mains_freq_csv": "C:/Users/enthe/Desktop/Thesis/results\\stability_predcv_0.65thresh\\stability_mains_simulated_dataset_250_0.2_20_0.0.csv",
+    "inter_freq_csv": "C:/Users/enthe/Desktop/Thesis/results\\stability_predcv_0.65thresh\\stability_interactions_simulated_dataset_250_0.2_20_0.0.csv"
+  }
+}

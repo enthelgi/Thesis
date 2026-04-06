@@ -1,0 +1,26 @@
+{
+  "selected_mains": [403, 16, 152, 330, 421, 308, 179, 445, 126],
+  "selected_interactions": [
+    [16, 152],
+    [16, 421],
+    [421, 126],
+    [16, 126]
+  ],
+  "selected_hyperparams": {
+    "heredity": "strong",
+    "higher_order": false,
+    "outer_k": 5
+  },
+  "metrics": {
+    "mse_outer_mean": 2.3231,
+    "mse_outer_sd": 0.8946,
+    "mse_train_full": 1.3624,
+    "n_total": 500,
+    "f1_mains": 0.7368,
+    "precision_mains": 0.7778,
+    "recall_mains": 0.7,
+    "f1_interactions": 0.5714,
+    "precision_interactions": 1,
+    "recall_interactions": 0.4
+  }
+}

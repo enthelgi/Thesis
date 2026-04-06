@@ -1,0 +1,41 @@
+{
+  "selected_mains": [
+    3,
+    5,
+    130,
+    131,
+    132,
+    133,
+    151,
+    476
+  ],
+  "selected_interactions": [
+    [
+      61,
+      151
+    ],
+    [
+      151,
+      168
+    ],
+    [
+      151,
+      275
+    ]
+  ],
+  "selected_hyperparams": {
+    "cv": 0.2,
+    "max_interaction_terms": 70,
+    "threshold": 0.5
+  },
+  "metrics": {
+    "mse": 3.1836449611957374,
+    "n_total": 1000,
+    "f1_mains": 0.5555555555555556,
+    "precision_mains": 0.625,
+    "recall_mains": 0.5,
+    "f1_interactions": 0.4615384615384615,
+    "precision_interactions": 1.0,
+    "recall_interactions": 0.3
+  }
+}
