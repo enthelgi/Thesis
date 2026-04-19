@@ -15,7 +15,7 @@ scaler = StandardScaler()
 X_std = scaler.fit_transform(X)
 
 # Fit Lasso regression
-lasso = Lasso(alpha=0.1)  # Adjust alpha as needed
+lasso = Lasso(alpha=0.1) 
 lasso.fit(X_std, y)
 coefficients = lasso.coef_
 
@@ -24,7 +24,7 @@ def soft_threshold(x, alpha):
     return np.sign(x) * np.maximum(np.abs(x) - alpha, 0)
 
 # Apply soft thresholding to coefficients
-alpha = 0.5  # Thresholding parameter, tune as needed
+alpha = 0.5  # Thresholding parameter
 soft_thresholded_coef = soft_threshold(coefficients, alpha)
 
 # Plotting

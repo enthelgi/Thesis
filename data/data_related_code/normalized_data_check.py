@@ -46,10 +46,7 @@ def check_and_normalize_dataset(file_path):
         print(f"The dataset has been normalized and saved to {output_path}.")
         return df_normalized
 
-# Example usage
-# works for atol means = 0.3 and var = 0.4
-#file_path = 'C:/Users/enthe/Documents/projectX/PliableLasso/microRNA_MCI_dataset.csv'
-#file_path = 'C:/Users/enthe/Documents/projectX/PliableLasso/microRNA_MCI_dataset_normalized.csv'
+
 #file_path = 'C:/Users/enthe/Documents/projectX/PliableLasso/modified_data_normalized.csv'
 file_path = 'C:/Users/enthe/Documents/projectX/PliableLasso/modified_data.csv'
 normalized_df = check_and_normalize_dataset(file_path)

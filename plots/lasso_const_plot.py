@@ -76,8 +76,6 @@ def plot_lasso_elliptic():
     b0_fixed = beta_estimated[0]  # Fix b0 at the estimated value
     b1_grid, b2_grid = np.meshgrid(b1_range, b2_range)
 
-    # Quadratic form representing the 3D elliptical curve
-    #y_surface = b0_fixed + b1_grid**2 / 2 - b2_grid**2 / 3
 
     # Plot the 3D elliptical curve
     fig = plt.figure(figsize=(15, 5))
@@ -106,7 +104,7 @@ def plot_lasso_elliptic():
 
     ax3.contour(b1_grid, b2_grid, y, cmap='Blues')
 
-    # Add LASSO constraint (diamond shape)
+    # LASSO constraint 
     ax3.plot([0, 1, 0, -1, 0], [1, 0, -1, 0, 1], color='red', linewidth=2, label='LASSO Constraint')
     ax3.legend()
 

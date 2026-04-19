@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-# Define a range of alpha values between 0 and 1 (excluding the endpoints)
+# Define an open range of alpha values between 0 and 1 
 alpha_vals = np.linspace(0.01, 0.99, 500)
 
 # Define f(alpha) = max(alpha, 2(1 - alpha))

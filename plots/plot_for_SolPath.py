@@ -3,7 +3,6 @@ import pandas as pd
 from matplotlib import pyplot as plt
 from sklearn import linear_model
 
-# Optional: Change matplotlib style
 plt.style.use('ggplot')
 
 def costfunction(X, y, theta):
@@ -47,35 +46,15 @@ X = X / np.linalg.norm(X, axis=0)
 
 # ------------------- Lambda Grid via Leave-One-Out Residuals -------------------
 n, p = X.shape  # n: number of samples, p: number of predictors
-'''
-# For each predictor j, compute the leave-one-out residual.
-lambda_candidates = []
-for j in range(p):
-    # Get the indices of the predictors except j
-    idx = [k for k in range(p) if k != j]
-    X_minus_j = X[:, idx]  # design matrix excluding j-th column
 
-    # Fit the regression using all predictors except j.
-    # We use lstsq to handle the case when p-1 = 1.
-    theta_minus_j, _, _, _ = np.linalg.lstsq(X_minus_j, y_noise, rcond=None)
-    
-    # Compute the leave-one-out residual:
-    r_minus_j = y_noise - X_minus_j @ theta_minus_j
-    
-    # Compute the correlation (inner product) between the j-th predictor and r(-j)
-    # Since r_minus_j is n x 1 and X[:, j] is n x 1, the inner product is a scalar.
-    lambda_j = np.abs(X[:, j].T @ r_minus_j) / n
-    lambda_candidates.append(lambda_j)
-'''
 # Use the maximum value as lambda_max
-#lambda_max = np.max(lambda_candidates)
 lambda_max = np.max(np.abs(X.T @ y_noise)) / n
 
-# Choose epsilon (a small fraction, e.g., 0.001) and set lambda_min accordingly.
+# Set epsilon and lambda
 epsilon = 0.0001
 lambda_min = epsilon * lambda_max
 
-# Create a grid of 100 logarithmically spaced lambda values between lambda_max and lambda_min.
+# Create a grid of 100 logarithmically spaced lambda values between lambda_max and lambda_min
 lambda_range = np.logspace(np.log10(lambda_max), np.log10(lambda_min), num=100)
 
 # ------------------- Lasso Regression over Lambda Grid -------------------
@@ -94,7 +73,7 @@ for l in lambda_range:
 # Create a grid over the coefficient space for contour plots
 xx, yy = np.meshgrid(np.linspace(-2, 17, 100), np.linspace(-17, 3, 100))
 
-# (Optional) Compute cost function values on the grid
+# Compute cost function values on the grid
 Z_l1 = np.array([cost_l1(xi, yi) for xi, yi in zip(np.ravel(xx), np.ravel(yy))]).reshape(xx.shape)
 Z_ls = np.array([costfunction(X, y_noise.reshape(-1, 1), 
                                np.array([t0, t1]).reshape(-1, 1)) 
@@ -117,11 +96,11 @@ ax.set_xlabel(r'$\beta_1$')
 ax.set_ylabel(r'$\beta_2$')
 ax.set_title('Lasso solution as a function of $\lambda$: RSS and L1 contours')
 
-# Compute the least squares solution (which corresponds to λ = 0)
+# Compute the least squares solution (which corresponds to lambda = 0)
 min_ls = np.linalg.inv(X.T @ X) @ X.T @ y_noise
 ax.plot(min_ls[0], min_ls[1], marker='x', color='red', markersize=10, label='Least Squares Min')
 
-# Plot the Lasso solution path (as points connected by a line)
+# Plot the Lasso solution path 
 ax.plot(theta_0_list_reg_l1, theta_1_list_reg_l1, linestyle='-', marker='o', color='red', alpha=0.7, label='Lasso Path')
 
 ax.legend()

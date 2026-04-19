@@ -64,6 +64,5 @@ def balance_binary_dataset_downsample(
     return df_balanced
 
 
-# --- Example usage ---
 if __name__ == "__main__":
     balance_binary_dataset_downsample("C:/Users/enthe/Desktop/Thesis/data/tgs_data/tgs_dataset_normalized.csv")

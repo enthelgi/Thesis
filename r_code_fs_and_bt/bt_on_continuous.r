@@ -160,7 +160,7 @@ for (filename in dataset_files) {
   mse_outer_mean <- mean(outer_mse)
   mse_outer_sd   <- sd(outer_mse)
 
-  ## ===== Final model on full data (for variable selection etc.) =====
+  ## ===== Final model on full data (for variable selection) =====
 
   cv_full <- cvLassoBT(
     x = X,

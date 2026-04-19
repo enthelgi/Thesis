@@ -10,9 +10,8 @@ n = 100
 X1 = np.random.rand(n) * 10
 X2 = np.random.rand(n) * 10
 # Interaction effect: X1*X2 term
-#Y = 5 + 2 * X1 + 3 * X2 + 1.5 * X1 * X2 + np.random.randn(n) * 2
 Y = 2 * X1 + 3 * X2 + 1.5 * X1 * X2 + np.random.randn(n) * 2
-#Y = 2 * X1 + 3 * X2 + 1.5 * X1 * X2 
+
 
 # Create DataFrame
 data = pd.DataFrame({'X1': X1, 'X2': X2, 'Y': Y})

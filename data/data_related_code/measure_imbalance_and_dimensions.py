@@ -45,7 +45,5 @@ def analyze_dataset_from_file(file_path: str):
         "imbalance_ratio": imbalance_ratio,
     }
 
-
-# --- Example usage ---
 if __name__ == "__main__":
     report = analyze_dataset_from_file("C:/Users/enthe/Desktop/Thesis/data/tgs_data/tgs_dataset_normalized.csv")

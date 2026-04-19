@@ -18,7 +18,7 @@ cor_vec = Wjr_residuals[theta_vec_id]
 def soft_threshold(vec, thresh):
     return np.sign(vec) * np.maximum(np.abs(vec) - thresh, 0)
 
-# Label vertical positions (staggered)
+# Label vertical positions 
 y_positions = {
     r'$-\alpha\lambda$': 0.63,
     r'$-2(1-\alpha)\lambda$': 0.61,
@@ -66,7 +66,6 @@ for i, alpha in enumerate(alphas):
                         arrowprops=dict(arrowstyle='->', lw=1))
 
         ax.set_xlim(x_min - buffer, x_max + buffer)
-        # Adjust y-limits to fit extreme thresholds
         ax.set_ylim(0.48, 0.67 + 0.01 * (abs(x_max) > 3))
         ax.set_title(rf'$\alpha={alpha},\ \lambda={lambd}$')
         ax.axis('off')

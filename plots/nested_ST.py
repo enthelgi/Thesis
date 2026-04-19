@@ -1,11 +1,11 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-# Modified example: we'll increase the signal slightly so it survives thresholding
-r = np.array([1, -2, 1])  # changed residuals
+
+r = np.array([1, -2, 1])  
 W_j = np.array([[0.6, -0.1],
                 [-0.2, 1.2],
-                [0.4, -0.3]])  # slight increase in weights
+                [0.4, -0.3]])  
 
 N = 3
 alpha = 0.6
@@ -57,5 +57,5 @@ plt.grid(True)
 plt.tight_layout()
 plt.show()
 
-# Display values for inclusion in narrative
+# Display values 
 v, v_shrunk, shrunk_norm, outer_thresh

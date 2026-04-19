@@ -390,7 +390,7 @@ for row in rows:
     if r_inter is not None:  inter_r.append(r_inter)
     if f1_inter is not None: inter_f1.append(f1_inter)
 
-# Optional: print per-row Interaction F1 where present
+# print per-row Interaction F1 where present
 for i, row in enumerate(rows):
     parts = [x.strip() for x in row.split("&")]
     if len(parts) >= 10:

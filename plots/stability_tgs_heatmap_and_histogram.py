@@ -14,10 +14,6 @@ inter_path = "C:/Users/enthe/Desktop/Thesis/results/tgs_results/stability_intera
 inter_df = pd.read_csv(inter_path)
 #print(inter_df)
 
-# If your interaction indices are 1-based in the CSV, uncomment the next two lines:
-# inter_df["i"] = inter_df["i"].astype(int) - 1
-# inter_df["j"] = inter_df["j"].astype(int) - 1
-
 p = len(main_names)
 
 # Build full symmetric frequency matrix
@@ -95,12 +91,10 @@ for _, row in inter_df.iterrows():
 # Compute vmax from the actually shown values
 if np.isnan(selected_matrix).all():
     print(f"No selected interactions above threshold ({threshold}).")
-    vmax_sel = 1.0  # fallback; plot will be empty but valid
+    vmax_sel = 1.0  # fallback: plot will be empty but valid
 else:
     vmax_sel = float(np.nanmax(selected_matrix))
 
-# Mask the upper triangle (including diagonal)
-#mask_sel = np.triu(np.ones_like(selected_matrix, dtype=bool), k=0)
 
 plt.figure(figsize=(max(10, p // 2), max(8, p // 2)))
 sns.heatmap(

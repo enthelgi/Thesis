@@ -1,3 +1,10 @@
+'''
+takes the TGS stability-selected features/interactions, 
+builds a final design matrix, tunes an L1 logistic regression, 
+compares it to a dummy baseline and a random forest, 
+and makes evaluation/importance plots.
+'''
+
 import pandas as pd
 import numpy as np
 
@@ -189,11 +196,11 @@ plt.legend()
 plt.tight_layout()
 plt.show()
 
-# 7c) Precision/Recall vs probability threshold  (THIS is the plot you asked about)
+# 7c) Precision/Recall vs probability threshold  
 plot_threshold_tradeoff_prob(y_test, y_prob)
 
 # -----------------------
-# 7d) Permutation test + histogram plot (RESTORED)
+# 7d) Permutation test + histogram plot 
 # -----------------------
 rng = np.random.RandomState(42)
 perm_aps = []

@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
-# Generate some synthetic data for x1, x2, and y
+# Generate synthetic data for x1, x2, and y
 np.random.seed(0)
 n=100
 x1 = np.random.uniform(-10, 25, n)
@@ -52,7 +52,7 @@ ax3.set_ylabel('b2')
 
 ax3.contour(b1_grid, b2_grid, rss_grid, levels=levels, cmap='viridis')
 
-# Add LASSO constraint (diamond shape)
+# Add LASSO constraint
 ax3.plot([0, 1, 0, -1, 0], [1, 0, -1, 0, 1], color='red', linewidth=2, label='LASSO Constraint')
 ax3.legend()
 

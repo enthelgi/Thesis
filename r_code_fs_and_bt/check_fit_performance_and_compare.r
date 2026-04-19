@@ -20,12 +20,7 @@ p <- ncol(X)
 K <- length(unique(y_glm))  # Should be 2 for binary
 
 # ===== Modifiers Z ===========================================================
-# If you have modifiers Z, define here.
 
-# Example 1: intercept-only modifiers
-# Z <- matrix(1, N, 1)
-
-# Example 2: specific features as modifiers (your current choice)
 Z <- X[, c(4, 8, 13), drop = FALSE]
 
 Z = X

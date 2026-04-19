@@ -2,8 +2,6 @@
 # -*- coding: utf-8 -*-
 
 """
-fit_and_f1.py  — batch runner (54 datasets), JSON/CSV saves, prefix-style filenames
-
 - Iterates over all combos:
     n = base_n * n_multiplier
     p = base_p * p_multiplier
@@ -17,7 +15,6 @@ fit_and_f1.py  — batch runner (54 datasets), JSON/CSV saves, prefix-style file
         chosen_<stem>.json
         best_model_<stem>.json
         [optional] yhat_<stem>.csv, beta_<stem>.csv, theta_<stem>.csv
-- No CLI. Configure CONFIG below.
 """
 
 import json
@@ -33,7 +30,7 @@ from plasso import PliableLasso
 
 
 # ==========================
-# Configuration (no CLI)
+# Configuration 
 # ==========================
 
 CONFIG = {
@@ -98,7 +95,7 @@ def parse_sim_filename(path: str) -> Tuple[str, str, str]:
         raise ValueError(f"Bad data filename: {base}")
     stem = m.group(1)
     dirpath = os.path.dirname(path)
-    truth = os.path.join(dirpath, f"truth_{stem}.json")  # prefix
+    truth = os.path.join(dirpath, f"truth_{stem}.json")  
     out_stem = os.path.join(dirpath, stem)
     return csv_path, truth, out_stem
 
