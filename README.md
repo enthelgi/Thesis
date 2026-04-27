@@ -28,6 +28,13 @@ Thesis/
 └── README.md
 
 ```
-# General Notes
+## General Notes
 
 To use this code adust the data path to your local directory.
+
+## Dependencies
+
+Install the required packages using:
+
+```bash
+pip install numpy==1.26.4 pandas==2.2.2 matplotlib==3.8.4 seaborn==0.13.2 scikit-learn==1.4.2 torch==2.2.2 numba==0.59.1 psutil==5.9.8
